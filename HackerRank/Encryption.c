@@ -6,7 +6,7 @@ int main()
 {
         char s[82];
         scanf("%s",s);
-        int i,c,r,n,j,k,sq;
+        int i,c,r,n,j,kq,sq;
         for(i=0;s[i];++i)
          sq=sqrt(i);
          if(sq*sq==i)
@@ -26,10 +26,10 @@ int main()
 
         for(j=0;j<c;++j)
         {       
-         for(k=0;k<r;++k)
+         for(kq=0;kq<r;++kq)
          {
-            if(j+k*c<i)
-                  printf("%c",s[j+k*c]);
+            if(j+kq*c<i)
+                  printf("%c",s[j+kq*c]);
                 }
          printf(" ");
         }  
