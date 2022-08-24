@@ -1,4 +1,5 @@
-# https://codeforces.com/problemset/problem/1154/A
+##https://codeforces.com/problemset/problem/1154/A
+
 a,b,c,d=map(int,input().split())
 m=max(a,b,c,d)
 if(m==a):
